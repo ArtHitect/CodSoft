@@ -1,0 +1,127 @@
+body {
+    width: 500px; /* Reduced width */
+    margin: 4% auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.6rem; /* Adjusted font size */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.calculator {
+  border: 2px solid black; /* Change 'your_color_here' to your desired color */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  padding: 10px; /* Optional: Add padding around the calculator */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+  background-color: #cecdcd; /* Background color */
+}
+
+
+.calculator {
+    padding: 15px; /* Reduced padding */
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 1px;
+}
+
+.input {
+    border: 1px solid #020202;
+    border-radius: 1px;
+    height: 50px; /* Reduced height */
+    padding-right: 10px; /* Reduced padding */
+    padding-top: 8px; /* Reduced padding */
+    text-align: right;
+    margin-right: 6px;
+    font-size: 2rem; /* Adjusted font size */
+    overflow-x: auto;
+    transition: all .2s ease-in-out;
+}
+  
+  .input:hover {
+    border: 1px solid #030202;
+    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .buttons {}
+  
+  .operators {}
+  
+  .operators div {
+    display: inline-block;
+    border: 1px solid #686363;
+    border-radius: 1px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    background-color: #ddd;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+  
+  .operators div:hover {
+    background-color: #ddd;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+  }
+  
+  .operators div:active {
+    font-weight: bold;
+  }
+  
+  .leftPanel {
+    display: inline-block;
+  }
+  
+  .numbers div {
+    display: inline-block;
+    border: 1px solid #e9e9e9;
+    border-radius: 1px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+  
+  .numbers div:hover {
+    background-color: #e6e6e6;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #140e0e;
+  }
+  
+  .numbers div:active {
+    font-weight: bold;
+  }
+  
+  div.equal {
+    display: inline-block;
+    border: 1px solid #0b111a;
+    border-radius: 1px;
+    width: 17%;
+    text-align: center;
+    padding: 116px 10px;
+    margin: 10px 6px 10px 0;
+    vertical-align: top;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #0e2955;
+    transition: all .2s ease-in-out;
+  }
+  
+  div.equal:hover {
+    background-color: #081435;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #000000;
+  }
+  
+  div.equal:active {
+    font-weight: bold;
+  }
